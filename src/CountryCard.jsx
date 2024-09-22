@@ -1,6 +1,7 @@
 const CountryCard = ({ name, flagImg, flagAltText }) => {
   return (
     <div
+      className="countryCard"
       style={{
         display: "flex",
         flexDirection: "column",
